@@ -32,7 +32,7 @@ def set_fan(state):
 #the fan will be activated if the temperature is more than 32'C.
 if (temperature >= 32):
     set_fan(True)
-    sleep(3)   #fan is activated for n seconds. 300secs = 5mins
+    sleep(300)   #fan is activated for n seconds. 300secs = 5mins
 else:
     set_fan(False)
 
